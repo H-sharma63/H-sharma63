@@ -64,8 +64,8 @@ def sendemail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('627harshit@gmail.com', 'H.sharma63')
-    server.sendmail('627harshit@gmail.com', to, content)
+    server.login("your id and password")
+    server.sendmail('your id', to, content)
     server.close()
 
 
@@ -145,11 +145,11 @@ if __name__ == "__main__":
             elif "play song on youtube" in query:
                 kit.playonyt("so high")
 
-            elif "emil to Harshit" in query:
+            elif "emil to person" in query:
                 try:
                     speak("what should i say?")
                     content = takecommand().lower()
-                    to = "2006hacker.xxx@gmil.com"
+                    to = "recever id"
                     sendemail(to, content)
                     speak("Email has been sent to Harshit")
 
