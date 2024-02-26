@@ -45,6 +45,7 @@
 
 <br clear="both">
 
+<img src="https://raw.githubusercontent.com/H-sharma63/H-sharma63/output/snake.svg" alt="Snake animation" />
 
 ###
 
