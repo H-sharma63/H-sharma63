@@ -28,7 +28,7 @@
 
 ###
 
-<img align="right" height="200" src="https://avatars.githubusercontent.com/u/84587119?s=400&u=62255332657e990f64c773a2ada427b4f07c8b69&v=4"  />
+
 
 ###
 
